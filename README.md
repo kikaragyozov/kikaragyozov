@@ -17,3 +17,4 @@
 ![Metrics](https://raw.githubusercontent.com/kikaragyozov/kikaragyozov/github-metrics/github-metrics.svg)
 ![Notable contributions](https://raw.githubusercontent.com/kikaragyozov/kikaragyozov/github-metrics/notable.svg)
 ![Achievements](https://raw.githubusercontent.com/kikaragyozov/kikaragyozov/github-metrics/achievements.svg)
+![StackOverflow](https://raw.githubusercontent.com/kikaragyozov/kikaragyozov/stackoverflow-metrics/metrics.plugin.stackoverflow.svg)
