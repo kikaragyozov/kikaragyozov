@@ -85,14 +85,21 @@ jobs:
     steps:
       - uses: lowlighter/metrics@v3.28
         with:
-          filename: metrics.plugin.stackoverflow.svg
           token: NOT_NEEDED
           # GITHUB_TOKEN is a special auto-generated token used for commits
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: stackoverflow-metrics
           committer_message: "build: update `${filename}`"
+          
+          # Options
+          user: kikaragyozov # Can be deleted, unused.
+          template: classic
           base: ""
+          config_display: large
+          config_timezone: Europe/Sofia
+          config_output: svg
+          filename: stackoverflow-metrics.svg
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 11272124
-          plugin_stackoverflow_sections: answers-top questions top
+          plugin_stackoverflow_sections: answers-top questions-top
           plugin_stackoverflow_limit: 2
