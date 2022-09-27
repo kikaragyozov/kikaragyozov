@@ -87,6 +87,10 @@ jobs:
         with:
           filename: metrics.plugin.stackoverflow.svg
           token: NOT_NEEDED
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: stackoverflow-metrics
+          committer_message: "build: update `${filename}`"
           base: ""
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 1
