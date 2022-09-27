@@ -93,6 +93,6 @@ jobs:
           committer_message: "build: update `${filename}`"
           base: ""
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: 1
+          plugin_stackoverflow_user: 11272124
           plugin_stackoverflow_sections: answers-top questions top
           plugin_stackoverflow_limit: 2
